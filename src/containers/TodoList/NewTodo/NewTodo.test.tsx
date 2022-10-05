@@ -4,6 +4,7 @@ import axios from "axios";
 import NewTodo from "./NewTodo";
 import { renderWithProviders } from "../../../test-utils/mock";
 import * as todoSlice from "../../../store/slices/todo";
+import React from "react";
 
 const mockNavigate = jest.fn();
 jest.mock("react-router", () => ({
