@@ -5,6 +5,7 @@ import { TodoState } from "../../store/slices/todo";
 import { getMockStore } from "../../test-utils/mock";
 import TodoList from "./TodoList";
 import { IProps as TodoProps } from "../../components/Todo/Todo";
+import React from "react";
 
 jest.mock("../../components/Todo/Todo", () => (props: TodoProps) => (
   <div data-testid="spyTodo">
